@@ -37,6 +37,7 @@ public class WelcomerTest {
 		assertThat(welcomer.saySome(), containsString("something"));
 	}
 
+    // Новый тест для getReply()
 	@Test
 	public void welcomerGetsReplyWithHunter() {
 		assertThat(welcomer.getReply(), containsString("hunter"));
